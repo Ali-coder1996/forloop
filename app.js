@@ -2,6 +2,7 @@ var myName = prompt('guess my name: Ali,Ahmed')
 var myAge = prompt('guess my name: 25,24')
 while(myName =='Ali' || myAge == 25 )
 {if(myName =='Ali' && myAge == 25){
+  alert('will done')
   break
 }else
   alert('you should put Ali,25')
