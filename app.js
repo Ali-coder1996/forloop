@@ -13,8 +13,7 @@ while(myName =='Ali' || myAge == 25 )
    alert('will done')
   break
 }else
-
- alert('Iam sorry') 
+  alert('Iam sorry') 
 }
 
 
@@ -22,7 +21,26 @@ while(myName =='Ali' || myAge == 25 )
   
 
 
-var brother = prompt('How many sbiling do you have from 0 to 5')
-for(i=0 ;i <brother ;i++){
-  document.write('<img src="https://www.cancer.net/sites/cancer.net/files/styles/blog_media/public/siblings-blog.jpg?itok=3hlQFNDI"> ', i)
+var brother = prompt('How many sbiling do you have from 1 to 5')
+for(i=0 ;i <brother.length ;i++){
+  if(brother==1){document.write('<img src="https://i.pinimg.com/originals/10/b8/53/10b85361849501524864939f08620c6f.jpg">')}
+  if(brother==2){document.write('<img src="https://as1.ftcdn.net/jpg/03/08/22/46/500_F_308224689_kKRW06JLpsCg40CRkmET6SNlvuGcargA.jpg">')}
+  if(brother==3){document.write('<img src="https://image.shutterstock.com/image-vector/vector-siblings-silhouette-on-white-260nw-323075252.jpg">')}
+  if(brother==4){document.write('<img src="https://previews.123rf.com/images/majivecka/majivecka1510/majivecka151000170/45715979-vector-siblings-silhouette-on-a-white-background-.jpg">')}
+  if(brother==5){document.write('<img src="https://thumbs.dreamstime.com/b/vector-siblings-silhouette-white-background-60328877.jpg">')}
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
