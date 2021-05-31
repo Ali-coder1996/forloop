@@ -32,21 +32,20 @@
 // }
 
 
-// let myName = prompt('guess my name: Ali,Ahmed')
-// let myAge = prompt('guess my name: 25,24')
+let myName = prompt('guess my name: Ali,Ahmed')
+let myAge = prompt('guess my name: 25,24')
 
-// while(myName !='Ali' || myAge != 25 ){
-//  myName = prompt('you should choice between: Ali,Ahmed')
-//  myAge = prompt('you should choice between: 25,24')
-// }
-// alert('will done')
+while(myName !='Ali' || myAge != 25 ){
+ myName = prompt('you should choice between: Ali,Ahmed')
+ myAge = prompt('you should choice between: 25,24')
+}
+alert('will done')
 
 
-// function inf(firstName, age){
-//   console.log(firstName ,age)
-//   document.write('My name is:', firstName )
-//   document.write('<img src="https://c0.klipartz.com/pngpicture/349/467/gratis-png-bienvenidas-damas-y-caballeros-youtube-dailymotion-bienvenidos.png">')
-//   document.write('My age is:', age , 'welcome to my page' )
-// }
+function inf(firstName, age){
+  console.log(firstName ,age)
+  document.write('My name is:', firstName )
+  document.write('My age is:', age , 'welcome to my page' )
+}
 
-// inf (myName, myAge)
+inf (myName, myAge)
